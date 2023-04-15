@@ -1,0 +1,498 @@
+/*----Global Styles----*/
+.thumbnail-common {
+    position: relative;
+  }
+  .page-background-common {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+  }
+  hr.style1 {
+    width: 60%;
+    height: 10px;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 0 10px 10px -10px #ffffff inset;
+  }
+  
+  /*----Navbar Styles----*/
+  .nav-bg-color {
+    background-color: #0d8177 !important;
+  }
+  
+  #navbar1 a,
+  #navbar1 span {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  #navbar1 .navbar-brand {
+    font-family: "Bilbo", "Comic Sans MS";
+    font-weight: 900;
+  }
+  .navbar-nav {
+    float: right;
+  }
+  
+  .navbar-nav > li {
+    margin: 0 8px;
+    padding: 0 5px;
+  }
+  
+  /*----Home Section----*/
+  #Home {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  #Home img {
+    width: 100%;
+    height: auto;
+  }
+  .caption-absolute-home {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+  }
+  .caption-absolute-home aside {
+    float: left;
+    /*	width: 300px;
+      height: 300px;*/
+    width: 20%;
+    height: 30%;
+  }
+  .caption-absolute-home aside img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+  
+  .caption-absolute-home article {
+    float: right;
+    width: 70%;
+    height: auto;
+  }
+  
+  .caption-absolute-home article h2 {
+    /*font-size: 35px;*/
+    font-size: 240%;
+  }
+  
+  .caption-absolute-home article p,
+  em {
+    /*font-size: 18px;*/
+    font-size: 121%;
+  }
+  
+  .caption-absolute-home article p a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .caption-absolute-home article p a:hover {
+    color: #ffffff;
+  }
+  
+  .hr-home {
+    border: 0;
+    height: 1px;
+    width: 85%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  }
+  
+  /*----Main Portfolio Page----*/
+  
+  #Portfolio {
+    background-image: url("https://github.com/manish662384/Personal-Portfolio-Webpage/blob/master/images/portfolio-image.jpg?raw=true");
+    background-color: #708090;
+  }
+  
+  .caption-body-portfolio {
+    margin-top: 80px;
+  }
+  
+  .imagebox {
+    width: 100%;
+    height: 320px;
+    background-color: #4f755b;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-top: 4px solid #4f755b;
+    border-right: 4px solid #4f755b;
+    border-left: 4px solid #4f755b;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 8px #000;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .imagebox:hover {
+    box-shadow: 6px 7px 15px #000;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .image-container-imagebox {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .image-container-imagebox img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    filter: brightness(100%);
+  }
+  .imagebox:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+  }
+  .imagebox span h6 {
+    font-size: 16px;
+    /*margin-top: 10px;*/
+  }
+  .imagebox a {
+    text-decoration: none;
+  }
+  .imagebox span {
+    color: #ffffff;
+  }
+  
+  /*Contact Page styles*/
+  
+  #Contact {
+    background-image: url("https://github.com/manish662384/Personal-Portfolio-Webpage/blob/master/images/contact-image.jpg?raw=true");
+    background-color: #f5b89a;
+  }
+  /*For a dark background image*/
+  #Contact:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .caption-head-contact {
+    position: relative;
+  }
+  .caption-body-contact {
+    position: relative;
+    margin-top: 30px;
+    overflow: auto; /* Important to keep the floating content within the container*/
+    min-height: 100%;
+  }
+  
+  .form {
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+  }
+  
+  aside.contact-msg {
+    float: right;
+    width: 40%;
+    margin-top: 70px;
+  }
+  
+  .contact-msg em {
+    font-size: 103%;
+  }
+  
+  /*----Footer Section----*/
+  .footer-section {
+    width: 100%;
+    height: 330px;
+  }
+  
+  .footer-section img {
+    width: 100%;
+    height: 330px;
+  }
+  
+  .footer-caption-absolute {
+    position: absolute;
+    top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 330px;
+    color: #ffffff;
+  }
+  
+  .footer-top {
+    width: 100%;
+    height: 270px;
+    padding-top: 40px;
+  }
+  .footer-top .footer-left {
+    float: left;
+    padding-left: 80px;
+    width: 30%;
+  }
+  
+  .footer-top .footer-right {
+    float: right;
+    padding-right: 10px;
+    width: 30%;
+  }
+  .footer-last {
+    height: 60px;
+    padding-top: 0px;
+  }
+  .footer-left a {
+    text-decoration: none;
+    color: #1da1f2;
+  }
+  
+  .footer-left a:hover {
+    color: #ffffff;
+  }
+  
+  /*----Font-Awesome----*/
+  .fa-paper-plane {
+    width: 50px;
+  }
+  .fa-heart {
+    color: #ff0909;
+  }
+  .fa-music {
+    color: #ffa909;
+  }
+  .fab {
+    font-size: 30px;
+  }
+  .fa-linkedin {
+    color: #007bb5;
+  }
+  .fa-github {
+    color: #b2babb;
+  }
+  .fa-twitter {
+    color: #1da1f2;
+  }
+  .fa-facebook {
+    color: #3b5998;
+  }
+  .fab:hover {
+    color: #ffffff;
+  }
+  /*Circle shape button icon on bottom right as fixed position to jump the scoller to the top*/
+  #back-to-top {
+    background: none;
+    margin: 0;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #830270;
+    border: 2px solid #ffffff;
+  }
+  #back-to-top i {
+    font-size: 25px;
+  }
+  #back-to-top:hover {
+    color: #830270;
+    background-color: #cfd4e4;
+    border: 2px solid #830270;
+  }
+  
+  /* ----------------Media Queries-------------- */
+  
+  @media (max-width: 850px) and (min-width: 768px) {
+    .caption-absolute-home article h2 {
+      font-size: 200%;
+    }
+    .caption-absolute-home article p,
+    em {
+      font-size: 110%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /*--Home Page--*/
+    .caption-absolute-home article h2 {
+      font-size: 190%;
+    }
+  
+    .caption-absolute-home article p,
+    em {
+      font-size: 90%;
+    }
+  
+    /*---Contact Page @768---*/
+  
+    /*---To replace the dark background image with colored background for small screen view---*/
+    /*#Contact{
+          background-image: none;
+          background-color: #F5B89A;
+          width: 100%;
+          height: auto;
+      }
+      #Contact:before{
+          content: '';
+          position: relative;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          background: rgba(0,0,0,0.4);
+      }*/
+  
+    .form,
+    aside.contact-msg {
+      float: none;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  
+    /*---Footer-Section @768---*/
+    .footer-section {
+      background-color: #000;
+      width: 100%;
+      height: auto;
+    }
+    .footer-section img {
+      display: none;
+    }
+    .footer-caption-absolute {
+      position: static;
+      width: 100%;
+      height: auto;
+    }
+    .footer-top {
+      width: 100%;
+      height: auto;
+      padding-top: 40px;
+    }
+    .footer-top .footer-left {
+      float: none;
+      padding-left: 0px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .footer-top .footer-right {
+      float: none;
+      padding-right: 0px;
+      width: 100%;
+      text-align: center;
+    }
+    .footer-last {
+      margin-top: 50px;
+      padding-bottom: 5px;
+    }
+  }
+  
+  @media (max-width: 660px) and (min-width: 576px) {
+    .caption-absolute-home article h2 {
+      font-size: 27px;
+    }
+  
+    .caption-absolute-home article p,
+    em {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /*---Global---*/
+    .page-background-common {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    /*---Home @576---*/
+    #Home {
+      background-color: #2f4f4f;
+      padding-top: 130px;
+      padding-bottom: 80px;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-top: 0px;
+    }
+    #image-home {
+      display: none;
+    }
+    .caption-absolute-home {
+      position: static;
+    }
+    .caption-absolute-home aside {
+      float: none;
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+    }
+    .caption-absolute-home article {
+      float: none;
+      width: 100%;
+    }
+    .caption-absolute-home article h2 {
+      font-size: 33px;
+    }
+    .caption-absolute-home article p,
+    em {
+      font-size: 18px;
+    }
+  
+    /*---Portfolio-Page @576px---*/
+  
+    /*---To replace background image with background color on small screen---*/
+    /*#Portfolio{
+          background-image: none;
+          background-color: #708090;
+      }*/
+    .imagebox {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 310px;
+      margin-bottom: 35px;
+    }
+  }
+  
